@@ -259,7 +259,7 @@ export default function Index() {
           <div className="hidden md:flex items-center gap-10">
             {NAV_LINKS.map(([id, label]) => (
               <button key={id} onClick={() => scrollTo(id)}
-                className="font-oswald text-xs tracking-[0.2em] uppercase text-white/50 hover:text-white transition-colors duration-300 relative group cursor-none">
+                className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-orange-500 transition-colors duration-300 relative group cursor-none">
                 {label}
                 <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-orange-500 group-hover:w-full transition-all duration-300" />
               </button>
@@ -270,7 +270,7 @@ export default function Index() {
             <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-xs tracking-[0.2em] uppercase text-orange-500 hover:text-orange-400 transition-colors duration-300 cursor-none animate-scale-pulse hover:animate-none">
               zakaz@rentshpunt.ru
             </a>
-            <a href="tel:+78000000000" className="font-oswald text-xs tracking-[0.2em] uppercase text-white/50 hover:text-white transition-colors duration-300 cursor-none">
+            <a href="tel:+78000000000" className="font-oswald text-xs tracking-[0.2em] uppercase text-white hover:text-orange-500 transition-colors duration-300 cursor-none">
               +7 (800) 000-00-00
             </a>
             <MagneticBtn onClick={() => scrollTo("contacts")}
