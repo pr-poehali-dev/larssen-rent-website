@@ -267,10 +267,10 @@ export default function Index() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-xl text-orange-500 hover:text-orange-400 transition-colors cursor-none">
+            <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-sm text-orange-500 hover:text-orange-400 transition-colors cursor-none leading-none self-end pb-[1px]">
               zakaz@rentshpunt.ru
             </a>
-            <a href="tel:+78000000000" className="font-oswald text-sm text-white/60 hover:text-white transition-colors cursor-none">
+            <a href="tel:+78000000000" className="font-oswald text-sm text-white/60 hover:text-white transition-colors cursor-none leading-none self-end pb-[1px]">
               +7 (800) 000-00-00
             </a>
             <MagneticBtn onClick={() => scrollTo("contacts")}
