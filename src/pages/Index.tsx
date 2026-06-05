@@ -267,7 +267,7 @@ export default function Index() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-xs tracking-[0.2em] uppercase text-orange-500 hover:text-orange-400 transition-colors duration-300 cursor-none animate-pulse hover:animate-none">
+            <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-xs tracking-[0.2em] uppercase text-orange-500 hover:text-orange-400 transition-colors duration-300 cursor-none animate-scale-pulse hover:animate-none">
               zakaz@rentshpunt.ru
             </a>
             <a href="tel:+78000000000" className="font-oswald text-xs tracking-[0.2em] uppercase text-white/50 hover:text-white transition-colors duration-300 cursor-none">
