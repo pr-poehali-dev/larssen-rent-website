@@ -531,7 +531,7 @@ export default function Index() {
                 {[
                   { icon: "Phone", title: "+7 (800) 000-00-00", sub: "Бесплатно по России, 8:00–20:00" },
                   { icon: "Mail", title: "zakaz@rentshpunt.ru", sub: "Ответим в течение часа" },
-                  { icon: "MapPin", title: "Москва, МКАД, км 84", sub: "Склад · Пн–Сб 8:00–19:00" },
+                  { icon: "MapPin", title: "г. Арамиль, ул. Гарнизон 9", sub: "Склад · Пн–Сб 8:00–19:00" },
                 ].map((c, i) => (
                   <div key={i} className={`flex items-start gap-4 group cursor-none transition-all duration-500 ${contactRef.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
                     style={{ transitionDelay: `${200 + i * 100}ms` }}>
