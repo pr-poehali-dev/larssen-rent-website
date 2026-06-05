@@ -530,7 +530,7 @@ export default function Index() {
               <div className="space-y-6">
                 {[
                   { icon: "Phone", title: "+7 (800) 000-00-00", sub: "Бесплатно по России, 8:00–20:00" },
-                  { icon: "Mail", title: "info@shpunt-arenda.ru", sub: "Ответим в течение часа" },
+                  { icon: "Mail", title: "zakaz@rentshpunt.ru", sub: "Ответим в течение часа" },
                   { icon: "MapPin", title: "Москва, МКАД, км 84", sub: "Склад · Пн–Сб 8:00–19:00" },
                 ].map((c, i) => (
                   <div key={i} className={`flex items-start gap-4 group cursor-none transition-all duration-500 ${contactRef.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
