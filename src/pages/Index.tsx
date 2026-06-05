@@ -267,14 +267,12 @@ export default function Index() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <div className="flex flex-col items-end gap-0.5">
-              <a href="tel:+78000000000" className="font-oswald text-sm text-white/60 hover:text-white transition-colors cursor-none">
-                +7 (800) 000-00-00
-              </a>
-              <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-xs text-orange-500/70 hover:text-orange-400 transition-colors cursor-none">
-                zakaz@rentshpunt.ru
-              </a>
-            </div>
+            <a href="tel:+78000000000" className="font-oswald text-sm text-white/60 hover:text-white transition-colors cursor-none">
+              +7 (800) 000-00-00
+            </a>
+            <a href="mailto:zakaz@rentshpunt.ru" className="font-oswald text-sm text-white/60 hover:text-white transition-colors cursor-none">
+              zakaz@rentshpunt.ru
+            </a>
             <MagneticBtn onClick={() => scrollTo("contacts")}
               className="font-oswald text-xs tracking-[0.15em] uppercase bg-orange-500 hover:bg-orange-400 text-white px-6 py-2.5 hover:shadow-[0_0_30px_rgba(234,88,12,0.6)] cursor-none">
               Расчёт стоимости
