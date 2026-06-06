@@ -240,11 +240,11 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="font-roboto bg-[#111820] text-white overflow-x-hidden cursor-none">
+    <div className="font-roboto bg-[#1a2330] text-white overflow-x-hidden cursor-none">
       {!isMobile && <CustomCursor />}
 
       {/* ── NAV ── */}
-      <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? "bg-[#111820]/95 backdrop-blur-xl shadow-[0_1px_0_rgba(255,255,255,0.05)]" : "bg-transparent"}`}>
+      <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? "bg-[#1a2330]/95 backdrop-blur-xl shadow-[0_1px_0_rgba(255,255,255,0.05)]" : "bg-transparent"}`}>
         <div className="max-w-7xl mx-auto px-6 lg:px-10 h-18 flex items-center justify-between py-4">
           <button onClick={() => scrollTo("hero")} className="flex items-center gap-3 group cursor-none">
             <div className="relative w-9 h-9">
@@ -396,7 +396,7 @@ export default function Index() {
       </section>
 
       {/* ── SERVICES ── */}
-      <section id="services" className="py-28 bg-[#111820]">
+      <section id="services" className="py-28 bg-[#1a2330]">
         <div ref={servicesRef.ref} className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className={`flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-6 transition-all duration-700 ${servicesRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
             <div>
@@ -414,7 +414,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/[0.04]">
             {services.map((s, i) => (
               <SpotlightCard key={i}
-                className={`bg-[#111820] transition-all duration-500 ${servicesRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+                className={`bg-[#1a2330] transition-all duration-500 ${servicesRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                 <div className="p-8 group cursor-none h-full relative"
                   style={{ transitionDelay: servicesRef.inView ? `${i * 60}ms` : "0ms" }}>
                   {/* top line reveal */}
@@ -496,11 +496,11 @@ export default function Index() {
       </section>
 
       {/* ── ADVANTAGES ── */}
-      <section className="py-20 bg-[#111820]">
+      <section className="py-20 bg-[#1a2330]">
         <div ref={advRef.ref} className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/[0.04]">
             {advantages.map((a, i) => (
-              <SpotlightCard key={i} className={`bg-[#111820] transition-all duration-500 ${advRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+              <SpotlightCard key={i} className={`bg-[#1a2330] transition-all duration-500 ${advRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
                 <div className="p-8 group cursor-none h-full" style={{ transitionDelay: `${i * 80}ms` }}>
                   <div className="w-10 h-10 bg-orange-500/10 group-hover:bg-orange-500/20 flex items-center justify-center mb-5 transition-all duration-300 group-hover:scale-110">
                     <Icon name={a.icon} size={18} className="text-orange-500" />
