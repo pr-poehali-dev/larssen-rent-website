@@ -137,8 +137,8 @@ function GlitchText({ text, className }: { text: string; className?: string }) {
       <span className={glitch ? "opacity-0" : "opacity-100"}>{text}</span>
       {glitch && (
         <>
-          <span className="absolute inset-0 text-orange-400" style={{ clipPath: "inset(20% 0 60% 0)", transform: "translateX(-4px)", filter: "blur(0.5px)" }}>{text}</span>
-          <span className="absolute inset-0 text-cyan-400" style={{ clipPath: "inset(50% 0 20% 0)", transform: "translateX(4px)", filter: "blur(0.5px)" }}>{text}</span>
+          <span className="absolute inset-0" style={{ color: '#0039A6', clipPath: "inset(20% 0 60% 0)", transform: "translateX(-4px)", filter: "blur(0.5px)" }}>{text}</span>
+          <span className="absolute inset-0" style={{ color: '#D52B1E', clipPath: "inset(50% 0 20% 0)", transform: "translateX(4px)", filter: "blur(0.5px)" }}>{text}</span>
         </>
       )}
     </span>
