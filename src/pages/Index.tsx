@@ -444,7 +444,7 @@ export default function Index() {
       </section>
 
       {/* ── ABOUT ── */}
-      <section id="about" className="py-28 relative overflow-hidden" style={{ background: 'linear-gradient(135deg,#0d1117 0%,#0a0e14 100%)' }}>
+      <section id="about" className="py-28 relative overflow-hidden" style={{ background: 'linear-gradient(135deg,#1e2c3a 0%,#192535 100%)' }}>
         <div className="absolute top-0 right-0 w-[500px] h-[500px] pointer-events-none"
           style={{ background: 'radial-gradient(circle,rgba(234,88,12,0.07) 0%,transparent 65%)', transform: 'translate(25%,-25%)' }} />
         <div className="absolute bottom-0 left-0 w-80 h-80 pointer-events-none"
@@ -515,7 +515,7 @@ export default function Index() {
       </section>
 
       {/* ── CONTACTS ── */}
-      <section id="contacts" className="py-28" style={{ background: 'linear-gradient(135deg,#0a0e14 0%,#080c10 100%)' }}>
+      <section id="contacts" className="py-28" style={{ background: 'linear-gradient(135deg,#192535 0%,#1a2330 100%)' }}>
         <div ref={contactRef.ref} className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className={`mb-16 transition-all duration-700 ${contactRef.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
             <p className="font-oswald text-xs tracking-[0.3em] uppercase text-orange-500 mb-3">Свяжитесь с нами</p>
